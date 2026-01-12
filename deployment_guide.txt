@@ -1,0 +1,37 @@
+Deployment Guide for Portfolio Website
+
+Step 1: Create GitHub Repository
+1. Go to https://github.com/new
+2. Repository name: portfolio
+3. Make it public
+4. Do not initialize with README, .gitignore, or license
+5. Click "Create repository"
+
+Step 2: Push Code to GitHub
+Run these commands in terminal (from the portfolio directory):
+
+cd portfolio
+git init
+git add .
+git commit -m "Initial portfolio commit"
+git branch -M main
+git remote add origin https://github.com/Brunoamorim99/portfolio.git
+git push -u origin main
+
+Step 3: Deploy to Vercel
+1. Go to https://vercel.com and sign up/login
+2. Click "New Project"
+3. Import your Git repository: Brunoamorim99/portfolio
+4. Vercel will detect it's a React app and deploy automatically
+5. Your site will be live at a vercel.app URL (e.g., https://portfolio-brunoamorim99.vercel.app)
+
+Alternative: Manual Deploy to Vercel
+1. Go to https://vercel.com/new
+2. Drag and drop the entire "build" folder from portfolio/build/ into the deployment area
+
+Step 4: Submit Documentation
+Create a Word Doc, TXT, or RTF file containing your live portfolio link and submit it as required.
+
+Live Portfolio Link: [Replace with your actual live URL after deployment]
+
+Note: The production build is ready in the portfolio/build/ folder.
