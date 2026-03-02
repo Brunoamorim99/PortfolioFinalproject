@@ -1,7 +1,13 @@
-import React from 'react';
+import React from 'react'
 
 function Home() {
-  return <div>Welcome to my portfolio!</div>;
+  return (
+    <div>
+      <Header />
+      <Hero />
+      <About />
+    </div>
+  );
 }
 
 export default Home;
